@@ -10,25 +10,24 @@ else {
 }
 
 
-// function Fibonacci(a){
-//   if (a === 1){
-//   return 1;
-//   }
-//     if (a === 2){
-//   return 1;
-//     }
-//     return Fibonacci(a-1)+Fibonacci(a-2);
-
-// }
-
-
 function Fibonacci(a){
-    (a === 1){
-   return 1;
-   }
+  if (a === 1){
+  return 1;
+  }
     if (a === 2){
-   return 1;
+  return 1;
     }
-    for (a=1; a>0; (a-1)+(a-2
+    return Fibonacci(a-1)+Fibonacci(a-2);
 
 }
+
+
+// function Fibonacci(a) {
+//     var x, x1, x2;
+//     for (i = 1; i <= a; i++) {
+//         x = x1 + x2 || 1;
+//         x1 = x2;
+//         x2 = x;
+//     }
+//     return x;
+// }
